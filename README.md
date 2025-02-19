@@ -15,4 +15,4 @@ The app allows users to **browse trending mangas**, explore different **categori
 
 ## 📷 Images
 
-The images of the project are stored in **images** folder.
+The images of the project are stored in **screenshots** folder.
