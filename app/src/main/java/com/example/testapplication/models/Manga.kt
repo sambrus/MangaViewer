@@ -2,6 +2,8 @@ package com.example.mangaviewer.models
 
 import kotlinx.serialization.Serializable
 
+// TODO fichier deprecated mais à voir si je le remets en place plus tard
+
 @Serializable
 data class MangaResponse(
     val data: List<Manga>
