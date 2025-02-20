@@ -39,8 +39,4 @@ class LocalStorageManager(context: Context) {
             preferences[FAVORITES_KEY] = currentIds.joinToString(",")
         }
     }
-
-    suspend fun isMangaFavorite(mangaId: String): Boolean {
-        return favoriteMangaIds.first().contains(mangaId)
-    }
 }

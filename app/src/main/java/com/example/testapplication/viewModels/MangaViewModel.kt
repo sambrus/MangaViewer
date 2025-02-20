@@ -44,7 +44,7 @@ class MangaViewModel(application: Application) : AndroidViewModel(application) {
             4
         )
 
-    fun getMangaList() {
+    private fun getMangaList() {
         viewModelScope.launch {
             val mangaService = MangaService.getInstance()
             try {
@@ -57,7 +57,7 @@ class MangaViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    fun getMangaRomance() {
+    private fun getMangaRomance() {
         viewModelScope.launch {
             val mangaService = MangaService.getInstance()
             try {
@@ -70,7 +70,7 @@ class MangaViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    fun getMangaSport() {
+    private fun getMangaSport() {
         viewModelScope.launch {
             val mangaService = MangaService.getInstance()
             try {
